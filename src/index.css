@@ -1,0 +1,77 @@
+.footer-bg {
+  background-color: #c3465c;
+  color: white;
+  position: absolute;
+  width: 100%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.footer-bg p {
+  color: black;
+}
+
+footer h2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Pacifico', cursive;
+  padding-top: 1em;
+  font-size: .75em;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+  main {
+    background-origin: padding-box;
+    background-repeat: repeat;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
+
+
+/* animal en animal.html */
+#animalDescription{
+  margin-top: 2rem;
+}
+
+.animal-perfil{
+  font-size: 1rem
+}
+
+.animal-title{
+  color: #c3465c;
+  text-align: left;
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em;
+}
+.animal-descripcion{
+  text-align: left;
+  font-size: 1em;
+}
+.animal-descripcion strong{
+  font-weight: 700;
+  color:#c3465c;
+  text-align: left;
+  font-size: 1em;
+}
+.animal-descripcion p{
+  font-weight: 300;
+  font-style: italic;
+  color:#c3465c;
+  text-align: left;
+  font-size:1em;
+  margin-top:.8em .8em;
+  margin-bottom:.8em;
+}
